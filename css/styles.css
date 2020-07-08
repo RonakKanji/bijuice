@@ -1,0 +1,140 @@
+body{
+  text-align: center;
+}
+
+h2{
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+
+#title{
+  padding: 2% 15% 3%;
+  background-color: #62d2a2;
+  text-align: left;
+}
+
+/* Navbar */
+
+.navbar-brand{
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+.nav-item{
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  padding: 0 10px;
+}
+
+/* Title-Image */
+.title-image{
+  width: 90%;
+  position: absolute;
+  right: 7%;
+  top: 20%;
+  border-radius: 50px;
+}
+
+.title-text{
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 100px 15px;
+}
+
+@media (max-width: 1028px){
+  .title-image{
+    position: static;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+#features{
+  padding: 100px;
+  background-color: #00e0ff;
+}
+
+.feature-image{
+  color: #3d84a8;
+}
+
+.feature-image:hover{
+  color: #11999e;
+}
+
+.feature-para{
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+#products{
+  background-color: #white;
+  padding: 100px;
+}
+
+.product-title{
+    font-size: 3rem;
+}
+
+.juices{
+  padding-top: 50px;
+  width: 90%;
+}
+
+#partner{
+  padding: 50px;
+}
+
+.suprmarket-image{
+  width: 20%;
+}
+
+#about{
+  background-color: #00e0ff;
+  padding: 100px;
+}
+
+.bishoo{
+  width: 50%;
+  border-radius: 100%;
+}
+
+.about-para{
+  padding-top: 50px;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+
+#cta{
+  background-color: #62d2a2;
+  padding: 100px;
+}
+
+.contact{
+  color: white;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.contacts-links{
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
